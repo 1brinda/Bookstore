@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-light py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="download.png"  height="100" width="100" alt="BookStore Logo" class="img-fluid">
+            </div>
+            <div class="header-links d-none d-md-flex">
+                <a href="#" class="px-2">Help</a>
+                <a href="#" class="px-2">Track Order</a>
+                <a href="#" class="px-2">Cancel Order</a>
+                <a href="#" class="px-2">Bulk Order</a>
+                <a href="#" class="px-2">Free Shipping at 999</a>
+                <a href="#" class="px-2">Available Coupons</a>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">99 Books Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">All Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Bestseller Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Fiction Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Romance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Manga Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Trading Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Self-Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">All Books</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Find Book Name" aria-label="Search">
+                </form>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link text-white" href="#">Wishlist</a>
+                    <a class="nav-item nav-link text-white" href="#">Cart (0)</a>
+                    <a class="nav-item nav-link text-white" href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <section class="new-releases mb-4">
+            <h2 class="text-center">Latest New Release Books</h2>
+            <p class="text-center">Ever lusted over a book but had to control yourself because it was too expensive? Worry not! Because 99bookstore is here to answer all your literary prayers. Knowledge is priceless but the books come with a bill and the 99bookstore is committed to bringing you the best of the brilliant from the world of written text, at prices which are literally a steal.</p>
+            <div class="text-center mb-4">
+                <button class="btn btn-success">View All</button>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="1.png" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Shadow Work Journal</h5>
+                            <p class="card-text">Keila Shaheen</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="2.png" class="card-img-top" alt="Book 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Sick Fux</h5>
+                            <p class="card-text">Tillie Cole</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="3.png" class="card-img-top" alt="Book 3">
+                        <div class="card-body">
+                            <h5 class="card-title">I Don't Love You Anymore</h5>
+                            <p class="card-text">Rithvik Singh</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="4.png" class="card-img-top" alt="Book 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Lucifer Was Innocent</h5>
+                            <p class="card-text">Tirth Raj Parsana</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bestsellers mb-4">
+            <h2 class="text-center">People's Choice Bestseller Books</h2>
+            <div class="text-center mb-4">
+                <button class="btn btn-success">View All</button>
+            </div>
+            <div class="row">
+               
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="5.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Psychology of Money</h5>
+                            <p class="card-text">Morgan Housel</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="6.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">You Only Live Once</h5>
+                            <p class="card-text">Stuti Changle</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="7.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Girl Who Knew Too Much</h5>
+                            <p class="card-text">Vikrant Khanna</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="8.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Secret Key</h5>
+                            <p class="card-text">Agastya Oddly</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="9.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Good Girl,Bad Blood</h5>
+                            <p class="card-text">Holly Jackson</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="18.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Unfinished:A Memoir</h5>
+                            <p class="card-text">Priyanka Chopra Jonas</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="19.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ignited Minds</h5>
+                            <p class="card-text">A.P.J Abdul Kalam</p>
+                            <p class="card-text">Rating: ★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="20.png" class="card-img-top" alt="Bestseller 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Think Anf Grow Rich</h5>
+                            <p class="card-text">Napoleon Hill</p>
+                            <p class="card-text">Rating: ★★★★★</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <section class="new-arrivals mb-4">
+            <h2 class="text-center">People's Choice New Arrivals</h2>
+            <div class="text-center mb-4">
+                <button class="btn btn-success">View All</button>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="11.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Welcome To Paradise</h5>
+                            <p class="card-text">Twinkle Khanna</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="13.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">As A Man Thinketh</h5>
+                            <p class="card-text">James Allen</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="12.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Art Of War</h5>
+                            <p class="card-text">Sun Tae</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="10.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The House-Maid Is Watching</h5>
+                            <p class="card-text">Reida Mc Fadde</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="14.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Don't Believe Everything You Think</h5>
+                            <p class="card-text">Joseph Nguyen</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="15.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Kashi:Secret of the Black Temple</h5>
+                            <p class="card-text">Vineet Bajpay</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="16.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Krishna</h5>
+                            <p class="card-text">Kevin Missal</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="17.png" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Power Of One Thought</h5>
+                            <p class="card-text">B.K Shivani</p>
+                            <p class="card-text">Rating: ★★★★☆</p>
+                            <button class="btn btn-outline-secondary btn-sm">Add To Basket</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Us Section -->
+                <div class="col-md-4 mb-4">
+                    <h5>About Us</h5>
+                    <p>
+                        99 Books Store is your one-stop shop for all your reading needs. We offer a wide variety of books across genres at unbeatable prices. Join our community and dive into the world of literature.
+                    </p>
+                </div>
+                <!-- Quick Links Section -->
+                <div class="col-md-2 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Cancel Order</a></li>
+                        <li><a href="#">Bulk Order</a></li>
+                        <li><a href="#">Free Shipping at 999</a></li>
+                        <li><a href="#">Available Coupons</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Us Section -->
+                <div class="col-md-3 mb-4">
+                    <h5>Contact Us</h5>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> 123 Book Street, Book City, BK 56789
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i> +1 234 567 890
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i> info@99booksstore.com
+                    </p>
+                </div>
+                <!-- Newsletter Section -->
+                <div class="col-md-3 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Sign up for our newsletter to get the latest updates and offers.</p>
+                    <form class="form-inline">
+                        <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Your Email">
+                        <button type="submit" class="btn btn-success mb-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 99 Books Store. All rights reserved.</p>
+                    <div>
+                        <a href="#" class="px-2 text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="px-2 text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="px-2 text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
